@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    src: url(../APPDEV/fonts/Montserrat/Montserrat-ExtraLightItalic.ttf);
+    font-family: "Montserrat";
+}
+@font-face{
+    src: url(../APPDEV/fonts/Sacramento-Regular.ttf);
+    font-family: "Sacramento";
+}
+@font-face{
+    src: url(../APPDEV/fonts/Montserrat/Montserrat-BoldItalic.ttf);
+    font-family: "Montserrat-BoldItalic";
+}
+body{
+    text-align: center;
+    background-color: rgb(8, 216, 216);
+    
+}
+.Heading{
+    background: url(../APPDEV/Img/photo-1531256379416-9f000e90aacc.jpeg);
+    padding-top: 13rem; 
+    font-style: normal;
+    font-weight: bold;
+    font-size: 58px;
+    font-family: "Sacramento";
+    text-align: center;
+    line-height: 7rem;
+    color: rgb(156, 97, 19);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 3in;
+}
+#im{
+    padding-bottom: 1in;
+}
+#aweb{
+    padding-top: 0.5in;
+    font-family: "Montserrat";
+    font-size: 55px;
+}
+.Introduction{
+    font-family: "Montserrat";
+    font-weight: bolder;
+    padding-top: 5rem;
+    font-style: italic;
+    font-size: 27px;
+    color:blue;
+    
+}
+.sub-intro{
+    margin-top: 3rem;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.micro-intro{
+    padding-top: 0.5rem;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+   
+
+}
+hr{
+    color: rgb(118, 118, 192);
+    border-style: dotted;
+    border-width: 4px;
+    width: 3%;
+    margin: 100px auto;
+    opacity: 28%;
+}
+
+.myskills{
+    padding-bottom: 2rem;
+    font-size: 27px;
+    margin-top: 9rem;
+    text-align: center;
+    color: blue;;
+    font-family: "Montserrat";
+    font-weight: bolder;
+}
+#Browser{
+    padding: unset;
+    float: left;
+    position: relative;
+    width: 4.5%;
+    height: 4.5%;
+    padding-left: 29rem;
+    padding-top: 1rem;
+    padding-right: 0rem;
+}
+.skills{
+    padding-top: 3rem;
+    margin-right: 32rem;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: blue;
+
+}
+.sub-skills{
+    margin-left: 0rem;
+    margin-right: 30rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.sub-a{
+    padding-bottom: 0.5rem;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.sub-b{
+    padding-bottom: 0.5rem;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.sub-c{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.skills-1{
+    padding-top: 5rem;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: blue;
+}
+.skills1{
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.skills2{
+    padding-top: 0.5rem;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.skills3{
+    padding-top: 0.5rem;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+hr{
+    color: rgb(118, 118, 192);
+    border-style: dotted;
+    border-width: 4px;
+    width: 3%;
+    margin: 100px auto;
+    opacity: 30%;
+}
+.Contact-me{
+    padding-top: 7rem;
+    text-align: center;
+    font-size: 27px;
+    font-family: "Montserrat";
+    color: blue;
+}
+.me-1{
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 27px;
+    font-family: "Montserrat-BoldItalic";
+    font-weight: bolder;
+    color: blue;
+}
+.me-2{
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 15px;
+    font-family: eri'Times New Roman', Times, sf;
+}
+
+.me-3{
+    padding-top: 0.5rem;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.me-4{
+    padding-top: 0.5rem;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.me-5{
+    padding-top: 0.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.button{
+    border-radius: 10px;
+    background-color: rgb(226, 201, 169);
+    padding: 0.5rem;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: "Montserrat";
+    color: blue;
+    height: 3%;
+    width: 9%;
+}
+.footer{
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    border: 1px solid rgb(226, 201, 169);
+    margin-top: 5rem;
+    background-color: rgb(226, 201, 169);
+}
+#Facebook:hover{
+        height: 2%;
+        width: 2%;  
+} 
+#Twitter:hover{
+        height: 2%;
+        width: 2%;
+}
+#Istagram:hover{
+        height: 2%;
+        width: 2%;
+}
+a{
+    margin: 2rem;
+    
+}
+
+h5{
+    margin-top: 2rem;
+    color: rgb(156, 97, 19);
+    font-family: "Montserrat";
+    font-size: 27px;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+#guatno{
+    text-align: center;
+    border-radius: 10rem;
+    height: 10rem;
+    width: 10rem;
+    margin-top: 7rem;
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
